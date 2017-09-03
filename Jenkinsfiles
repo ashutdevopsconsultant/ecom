@@ -3,7 +3,7 @@ pipeline {
    stages {
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/AshutoshNI/shopizer.git'
+      git 'https://github.com/AshutoshNI/ecom.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
